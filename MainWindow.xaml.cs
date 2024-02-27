@@ -25,8 +25,13 @@ namespace WPF_GAMF1
         public MainWindow()
         {
             InitializeComponent();
-            Task.Run(loadNumbers);
         }
+
+        private async void btn_feladat1_Click(object sender, RoutedEventArgs e)
+        {
+            await loadNumbers();
+        }
+
         async Task loadNumbers()
         {
             long[] numbers = await File.ReadAllLinesAsync("./files/szamok.txt").ContinueWith(res => res.Result.Select(long.Parse).ToArray());
@@ -69,5 +74,7 @@ namespace WPF_GAMF1
             }
             return a == 1;
         }
+
+       
     }
 }
