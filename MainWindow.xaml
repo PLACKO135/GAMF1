@@ -8,15 +8,21 @@
         Title="MainWindow" Height="450" Width="800" Background="BlanchedAlmond">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Button  x:Name="btn_feladat1"  Content="Első feladat"/>
+        <Button  x:Name="btn_feladat1"  Content="Első feladat" Click="btn_feladat1_Click" />
         <Button  x:Name="btn_feladat2"  Grid.Row="1" Content="Második feladat"/>
+
+        <Label x:Name="lb_elso" Grid.Column="1" Background="White" BorderBrush="Aqua" BorderThickness="2" Height="150" Width="400"/>
+        <Label x:Name="lb_masodik" Grid.Column="1" Grid.Row="1" Background="White" BorderBrush="Aqua" BorderThickness="2" Height="150" Width="400"/>
+        
+        
 
     </Grid>
 </Window>
