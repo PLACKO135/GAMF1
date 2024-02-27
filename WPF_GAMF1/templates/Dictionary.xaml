@@ -4,7 +4,7 @@
     <Style TargetType="Button">
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="Height" Value="51"/>
-        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Background" Value="#2b2b2b"/>
         <Setter Property="FontSize" Value="17"/>
         <Setter Property="Template">
             <Setter.Value>

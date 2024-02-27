@@ -13,12 +13,10 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
-
         </Grid.RowDefinitions>
         
         <Button  x:Name="btn_feladat1"  Content="Első feladat"/>
         <Button  x:Name="btn_feladat2"  Grid.Row="1" Content="Második feladat"/>
         
-
     </Grid>
 </Window>
