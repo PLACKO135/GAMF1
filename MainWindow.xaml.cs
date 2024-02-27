@@ -32,17 +32,18 @@ namespace WPF_GAMF1
             long[] numbers = await File.ReadAllLinesAsync("./files/szamok.txt").ContinueWith(res => res.Result.Select(long.Parse).ToArray());
             var coprime = numbers.Where(x => IsCoPrime(x, 1310438493L)).Count();
             var anagram = numbers.Where(x => areAnagrams(x, 2354211341L)).Count();
+            var frequentDigits = numbers.Select(x => TwoDigits(x)).GroupBy(x => x).OrderByDescending(x => x.Count()).Select(x => x.Key).ToList()[0];
             
         }
-
+        //O(n) time complexity
         List<int> TwoDigits(long number)
         {
-            string num = number.ToString();
-            List<int> result = new();
-            for(int i = 0; i < num.Length; i++)
-            {
-
-            }
+           string num = number.ToString();
+           List<int> result = new();
+           for(int i = 0; i < num.Length -1;i++)
+           {
+                result.Add(int.Parse($"{num[i] + num[i + 1]}"));
+           }
             return result;
         }
 
