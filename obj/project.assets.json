@@ -8,19 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\balogh.tamas\\.nuget\\packages\\": {}
+    "C:\\Users\\papp.laszlo.levente\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\balogh.tamas\\source\\repos\\WPF_GAMF1\\WPF_GAMF1.csproj",
+      "projectUniqueName": "C:\\Users\\papp.laszlo.levente\\Desktop\\Papp László\\gitgyak\\WPF_GAMF1\\WPF_GAMF1.csproj",
       "projectName": "WPF_GAMF1",
-      "projectPath": "C:\\Users\\balogh.tamas\\source\\repos\\WPF_GAMF1\\WPF_GAMF1.csproj",
-      "packagesPath": "C:\\Users\\balogh.tamas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\balogh.tamas\\source\\repos\\WPF_GAMF1\\obj\\",
+      "projectPath": "C:\\Users\\papp.laszlo.levente\\Desktop\\Papp László\\gitgyak\\WPF_GAMF1\\WPF_GAMF1.csproj",
+      "packagesPath": "C:\\Users\\papp.laszlo.levente\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\papp.laszlo.levente\\Desktop\\Papp László\\gitgyak\\WPF_GAMF1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\balogh.tamas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\papp.laszlo.levente\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
